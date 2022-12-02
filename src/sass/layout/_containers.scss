@@ -2,8 +2,8 @@
 @use '/src/sass/base/' as *;
 
 
-.wide-container {
-  --max-width: 1750px;
+.container__wide {
+  --max-width: 1920px;
   --container-padding: 1rem;
 
   width: min(var(--max-width), 100% - (var(--container-padding) * 2)) !important;

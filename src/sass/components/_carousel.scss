@@ -30,8 +30,11 @@
             padding: 2rem;
             gap: 1rem;
 
+            height: 250px;
+
             @include breakpoint(lg) {
                 padding: 2rem 4rem;
+                height: unset;
             }
 
             &-header {
@@ -76,18 +79,18 @@
 
                 &:hover,
                 &:focus {
-                  transform: scale(1.05) translateY(-.125em);
-              
-                  &::before {
-                    opacity: .3;
-                  }
+                    transform: scale(1.05) translateY(-.125em);
+
+                    &::before {
+                        opacity: .3;
+                    }
                 }
 
                 @include breakpoint(lg) {
                     font-size: 1.5rem;
                 }
 
-                a{
+                a {
                     color: #000000 !important;
                 }
             }
@@ -107,21 +110,43 @@
     height: unset;
 }
 
-// .slick-dots {
-//     display: none;
+
+// .slick-prev:before, .slick-next:before {
+//     font-size: 30px;
 // }
 
-
-// .slick-arrow {
-//     position: absolute;
-//     top: 50%;
+// .slick-prev:before{
+//     content: "<";
 // }
 
-// .slick-next {
-//     right: 0;
+// ​ .slick-next:before {
+//     content: ">";
 // }
+    // .slick-dots {
+    //     display: none;
+    // }
 
-// .slick-prev {
-//     left: 0;
-//     z-index: 999;
-// }
+
+    .slick-arrow {
+        display: none !important;
+        position: absolute;
+        top: 50%;
+
+        background: transparent;
+        color: white;
+        border: none;
+
+        @include breakpoint(lg) {
+            font-size: 6rem;
+            display: unset !important;
+        }
+    }
+
+    .slick-next {
+        right: 2%;
+    }
+
+    .slick-prev {
+        left: 2%;
+        z-index: 999;
+    }

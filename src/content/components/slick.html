@@ -14,24 +14,38 @@
 
 <body>
 
-    <div class="container__wide">
-        <div class="your-class">
-            <div class="slide">
-                <img src="/src/imgs/carbuying-assistance 1.png" alt="" srcset="">
-                <div class="slide__content-wrapper slide-light">
-                    <div class="slide__content">
-                        <div class="slide__content-header">Car Buying With Auto Assistance</div>
-                        <div class="slide__content-body">The new UMC FCU Auto Mall, powered by Auto Assistance</div>
-                        <div class="btn-wrapper">
-                            <div class="slide__content-btn">Details</div>
+    <section class="carousel-de">
+        <div class="container__wide">
+            <div class="slider-de">
+                <div class="slide">
+                    <img src="https://www.unitedmethodistcu.com/img/banner/new-carousel/carbuying-assistance%201.png" alt="" srcset="">
+                    <div class="slide__content-wrapper slide-light">
+                        <div class="slide__content">
+                            <div class="slide__content-header">Car Buying With Auto Assistance</div>
+                            <div class="slide__content-body">The new UMC FCU Auto Mall, powered by Auto Assistance
+                            </div>
+                            <div class="btn-wrapper">
+                                <div class="slide__content-btn">Details</div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="slide">
+                    <img src="https://www.unitedmethodistcu.com/img/banner/new-carousel/happy-holi-yay%202.png" alt="" srcset="">
+                    <div class="slide__content-wrapper slide-dark">
+                        <div class="slide__content">
+                            <div class="slide__content-header | clr-neutral-100">Happy Holi-yay!</div>
+                            <div class="slide__content-body | clr-neutral-100">Earn 2X ScorecardRewards points with each purchase! Now through January 15, 2023</div>
+                            <div class="btn-wrapper">
+                                <div class="slide__content-btn">Learn More</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-
-
         </div>
-    </div>
+    </section>
 
     <div class="space" style="min-height: 800px;"></div>
 
@@ -39,23 +53,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 <script>
     jQuery(document).ready(function () {
-        jQuery('.your-class').slick({
-            dots: true,
+        jQuery('.slider-de').slick({
+            dots: false,
             slidesToShow: 1,
             slidesToScroll: 1,
-            responsive: [{
-                    breakpoint: 980,
-                    settings: {
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 767,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
+            autoplay: false,
+            autoplaySpeed: 2000,
+            arrows:false,
         });
     });
 </script>

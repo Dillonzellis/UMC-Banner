@@ -77,46 +77,63 @@
                                 <div class="slide__content-body">The new UMC FCU Auto Mall, powered by Auto Assistance
                                 </div>
                                 <div class="btn-wrapper">
-                                    <div class="slide__content-btn">Details</div>
+                                    <div class="slide__content-btn"><a href="#" data-remodal-target="auto-assistance"
+                                            class="slide__content-btnbiss-btn biss-btn-white">Details</a></div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="slide">
-                        <img src="/img/banner/new-carousel/carbuying-assistance 1.png" alt="" srcset="">
-                        <div class="slide__content-wrapper slide-light">
+                        <img src="https://www.unitedmethodistcu.com/img/banner/new-carousel/happy-holi-yay%202.png"
+                            alt="" srcset="">
+                        <div class="slide__content-wrapper slide-dark">
                             <div class="slide__content">
-                                <div class="slide__content-header">Car Buying With Auto Assistance</div>
-                                <div class="slide__content-body">The new UMC FCU Auto Mall, powered by Auto Assistance
-                                </div>
+                                <div class="slide__content-header | clr-neutral-100">Happy Holi-yay!</div>
+                                <div class="slide__content-body | clr-neutral-100">Earn 2X ScorecardRewards points with
+                                    each purchase! Now through January 15, 2023</div>
                                 <div class="btn-wrapper">
-                                    <div class="slide__content-btn">Details</div>
+                                    <div class="slide__content-btn"><a
+                                            href="https://www.unitedmethodistcu.com/pages/happy-holi-yay.php">Learn
+                                            More</a></div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="slide">
-                        <img src="/img/banner/new-carousel/carbuying-assistance 1.png" alt="" srcset="">
+                        <img src="https://www.unitedmethodistcu.com/img/banner/2021/auto-refinance.png" alt=""
+                            srcset="">
                         <div class="slide__content-wrapper slide-light">
                             <div class="slide__content">
-                                <div class="slide__content-header">Car Buying With Auto Assistance</div>
-                                <div class="slide__content-body">The new UMC FCU Auto Mall, powered by Auto Assistance
+                                <div class="slide__content-header">Auto Refinance Special</div>
+                                <div class="slide__content-body">Refinance your auto loan with another institution and
+                                    we’ll take 2% off of the rate, no lower than 2.99%.
                                 </div>
                                 <div class="btn-wrapper">
-                                    <div class="slide__content-btn">Details</div>
+                                    <div class="slide__content-btn"><a
+                                            href="https://www.unitedmethodistcu.com/pages/loan-application.php">Apply
+                                            Today</a></div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="slide">
-                        <img src="/img/banner/new-carousel/carbuying-assistance 1.png" alt="" srcset="">
-                        <div class="slide__content-wrapper slide-light">
+                        <img src="https://www.unitedmethodistcu.com/img/banner/2021/sailing.jpg" alt="" srcset="">
+                        <div class="slide__content-wrapper slide-dark">
                             <div class="slide__content">
-                                <div class="slide__content-header">Car Buying With Auto Assistance</div>
-                                <div class="slide__content-body">The new UMC FCU Auto Mall, powered by Auto Assistance
+                                <div class="slide__content-header | clr-neutral-100">Smooth Sailing Ahead!</div>
+                                <div class="slide__content-body | clr-neutral-100">To see an ocean of opportunity, have
+                                    your financial institution do a deep dive on your finances with a balance transfer!
                                 </div>
                                 <div class="btn-wrapper">
-                                    <div class="slide__content-btn">Details</div>
+                                    <div class="slide__content-btn"><a
+                                            href="https://www.unitedmethodistcu.com/pages/balance-transfer.php">Learn
+                                            More</a></div>
+
                                 </div>
                             </div>
                         </div>
@@ -226,7 +243,7 @@
                     slidesToScroll: 1,
                     autoplay: true,
                     autoplaySpeed: 2000,
-                    arrows:false,
+                    arrows: false,
                 });
             });
         </script>
